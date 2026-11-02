@@ -5,7 +5,7 @@ A **tutorial-aligned original companion project** for:
 
 This is **not** the instructor's exact code; it implements the same learning topics with some additional protections (hashed passwords, real login/logout sessions, post ownership checks).
 
-**Read [START_HERE.md](START_HERE.md) first** for zero-to-running Windows instructions.
+
 
 ## Project structure
 
@@ -24,10 +24,10 @@ intro-to-backend/
     middleware/errorHandler.js # Handles errors
   postman/
     Intro-to-Backend.postman_collection.json
-  .env.example
+
   .gitignore
   package.json
-  START_HERE.md
+
 ```
 
 ## Request flow
