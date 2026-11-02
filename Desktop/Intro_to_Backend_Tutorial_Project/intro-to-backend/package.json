@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly Node.js Express MongoDB backend, aligned with the freeCodeCamp tutorial",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
